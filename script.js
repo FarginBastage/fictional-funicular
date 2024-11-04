@@ -7,12 +7,10 @@ function startScan() {
         "Initializing scan...",
         "Scanning for rooftop bars...",
         "Locating poshest spots...",
-        "Preparing for fancy drinks...",
-        "This 25 dollar whiskey and coke will be worth it...",
-        "Triangulating locations for snobby white people...",
-
+        "Prepare for fancy drinks...",
+        "Almost there..."
     ];
-    
+
     let messageIndex = 0;
     const messageElement = document.getElementById("loadingMessage");
 
