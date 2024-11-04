@@ -22,6 +22,14 @@ function startScan() {
         if (messageIndex >= messages.length) {
             clearInterval(messageInterval);
             messageElement.textContent = "Rooftop bar found! 🍸";
+
+            // Show the "Show Results" button
+            document.getElementById("showResultsButton").style.display = "block";
         }
     }, 2000);
+}
+
+// Function to show the funny image
+function showResults() {
+    window.location.href = "https://ibb.co/ZmVwYTh"; // Replace with the URL of your funny image
 }
