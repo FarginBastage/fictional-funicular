@@ -37,5 +37,5 @@ function startScan() {
 // Function to show the funny image
 function showResults() {
     console.log("Showing results...");  // Debugging line
-    window.location.href = "https://your-image-url.com"; // Replace with the actual URL to the funny image
+    window.location.href = "https://ibb.co/ZmVwYTh"; // Replace with the actual URL to the funny image
 }
