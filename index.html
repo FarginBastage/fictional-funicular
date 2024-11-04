@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rooftop Bar Locator</title>
+    <!-- Link to Google Fonts for Oswald font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,6 +16,7 @@
         <div class="radar"></div>
         <div class="message" id="loadingMessage">Initializing scan...</div>
     </div>
+    <button onclick="startScan()">Start Rooftop Scan</button>
     <button id="showResultsButton" style="display: none;" onclick="showResults()">Show Results</button>
     <audio id="sirenSound" src="siren.mp3"></audio>
     <script src="script.js"></script>
